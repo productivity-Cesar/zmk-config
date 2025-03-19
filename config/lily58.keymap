@@ -55,14 +55,14 @@
 //                     |      |      |      |        |  |       |      |       |       |
             display-name = "MOU";
             bindings = <
-&trans &trans &trans &trans &trans &trans                  &trans &trans &trans &trans &trans &trans
-&trans &trans &trans &trans &trans &trans                  &trans &mkp MB1 &mmv MOVE_UP &mkp MB1  &trans &trans
-&trans &trans &trans &trans &trans &trans                  &trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans &trans
-&trans &trans &trans &trans &trans &trans &trans   &trans  &trans &trans &trans &trans &trans &trans
+&trans &trans &trans &trans &trans &trans                  &trans &trans &mkp MB3 &trans &trans &trans
+&trans &trans &trans &trans &kp HOME &kp END                  &trans &mkp MB1 &mmv MOVE_UP &mkp MB2  &trans &trans
+&trans &trans &trans &trans &kp DEL &kp INS                  &trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans &trans
+&trans &trans &trans &trans &kp PG_UP &kp PG_DN &trans   &trans  &trans &trans &trans &trans &trans &trans
                      &trans &trans &trans &trans   &trans  &trans &trans &trans &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp MOVE_X(5) MOVE_X(-5)>;
         };
 
         lower_layer {
