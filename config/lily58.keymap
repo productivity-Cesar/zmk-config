@@ -21,7 +21,6 @@
     };
 };
 
-
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -62,7 +61,7 @@
                      &trans &trans &trans &trans   &trans  &trans &trans &trans &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp MOVE_X(5) MOVE_X(-5)>;
+            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DOWN>;
         };
 
         lower_layer {
