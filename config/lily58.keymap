@@ -18,7 +18,7 @@
             key-positions = <31 32 33>;
             bindings = <&kp RET>;
         };
-        combo_cap {
+        combo_esc {
             timeout-ms = <80>;
             key-positions = <39 ee>;
             bindings = <&kp CAPS>
@@ -65,7 +65,7 @@
 &trans &trans &trans &trans &kp PG_UP &kp PG_DN &trans   &trans  &trans &trans &trans &trans &trans &trans
                      &trans &trans &trans &trans   &trans  &trans &trans &trans &trans
             >;
-
+~
             sensor-bindings = <SCRL_UPS CRL_DOWN>;
         };
 
