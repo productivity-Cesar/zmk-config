@@ -18,6 +18,11 @@
             key-positions = <31 32 33>;
             bindings = <&kp RET>;
         };
+        combo_cap {
+            timeout-ms = <80>;
+            key-positions = <39 ee>;
+            bindings = <&kp CAPS>
+        }
     };
 };
 
