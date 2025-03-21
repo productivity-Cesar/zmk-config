@@ -18,9 +18,9 @@
             key-positions = <31 32 33>;
             bindings = <&kp RET>;
         };
-        combo_esc {
+        combo_cap {
             timeout-ms = <80>;
-            key-positions = <39 ee>;
+            key-positions = <39 33>;
             bindings = <&kp CAPS>
         }
     };
