@@ -27,6 +27,12 @@
 };
 
 / {
+    chosen {
+        zmk,backlight = &backlight;
+    };
+};
+
+/ {
     behaviors {
         scroll_encoder: scroll_encoder {
             compatible = "zmk,behavior-sensor-rotate";
