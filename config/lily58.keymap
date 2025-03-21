@@ -65,8 +65,8 @@
 &trans &trans &trans &trans &kp PG_UP &kp PG_DN &trans   &trans  &trans &trans &trans &trans &trans &trans
                      &trans &trans &trans &trans   &trans  &trans &trans &trans &trans
             >;
-            sensor-bindings = <&msc SCRL_UPS CRL_DOWN>;
-        };
+            sensor-bindings = <&msc SCRL_UP SCRL_DOWN>;
+        }; 
 
         lower_layer {
 // ------------------------------------------------------------------------------------------------------------
