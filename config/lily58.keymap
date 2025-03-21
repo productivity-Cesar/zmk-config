@@ -22,7 +22,7 @@
             timeout-ms = <80>;
             key-positions = <39 33>;
             bindings = <&kp CAPS>
-        }
+        };
     };
 };
 
